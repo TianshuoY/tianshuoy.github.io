@@ -120,7 +120,7 @@ div#toptitle {
 
 /* Reduce space if we begin the page with a title. */
 div#toptitle + h2, div#toptitle + h3 {
-	margin-top: -20px;
+	margin-top: 0em;
 }
 
 div#subtitle {
@@ -150,13 +150,15 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
-	padding-bottom: 0.3em;
+	font-size: 185%;
+	/* padding-bottom: 0.3em; */
+	font-family: 'Times New Roman', Times,'STSong';
 }
 
 h2 {
 	padding-top: 0.8em;
 	font-size: 125%;
+	font-family: 'Times New Roman', Times;
 }
 
 h2 + h3 {
@@ -164,16 +166,17 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 120%;
 	border-bottom: none;
+	font-family: 'Times New Roman', Times;
 }
 
 p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.3;
-    text-align: justify;
+	line-height: 1.25;
+	font-size: 100%;
 }
 
 pre {
