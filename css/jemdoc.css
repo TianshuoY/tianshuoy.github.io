@@ -179,6 +179,10 @@ p {
 	font-size: 100%;
 }
 
+.bio-paragraph p {
+    line-height: 2.0;
+}
+
 pre {
 	padding: 0;
 	margin: 0;
